@@ -1,0 +1,368 @@
+{
+  "data": {
+    "hn": {
+      "topStories": [
+        {
+          "id": "20208778",
+          "title": "Levittown",
+          "url": "https://granolashotgun.com/2019/06/03/levittown/",
+          "by": {
+            "id": "burlesona"
+          },
+          "time": 1560818398,
+          "timeISO": "2019-06-18T00:39:58.000Z",
+          "score": 28,
+          "descendants": 2
+        },
+        {
+          "id": "20205566",
+          "title": "SACK Panic – Multiple TCP-based remote denial-of-service issues",
+          "url": "https://access.redhat.com/security/vulnerabilities/tcpsack",
+          "by": {
+            "id": "cdingo"
+          },
+          "time": 1560793832,
+          "timeISO": "2019-06-17T17:50:32.000Z",
+          "score": 261,
+          "descendants": 79
+        },
+        {
+          "id": "20207347",
+          "title": "The Rascal Metaprogramming Language",
+          "url": "http://www.rascal-mpl.org/",
+          "by": {
+            "id": "nerdponx"
+          },
+          "time": 1560805283,
+          "timeISO": "2019-06-17T21:01:23.000Z",
+          "score": 72,
+          "descendants": 4
+        },
+        {
+          "id": "20207907",
+          "title": "World’s Top Bicycle Maker Says the Era of ‘Made in China’ Is Over",
+          "url": "https://www.bloomberg.com/news/articles/2019-06-17/world-s-top-bicycle-maker-says-era-of-made-in-china-is-over",
+          "by": {
+            "id": "adventured"
+          },
+          "time": 1560809855,
+          "timeISO": "2019-06-17T22:17:35.000Z",
+          "score": 122,
+          "descendants": 130
+        },
+        {
+          "id": "20206623",
+          "title": "Robocalls are overwhelming hospitals and patients",
+          "url": "https://www.washingtonpost.com/technology/2019/06/17/robocalls-are-overwhelming-hospitals-patients-threatening-new-kind-health-crisis/",
+          "by": {
+            "id": "jmsflknr"
+          },
+          "time": 1560800853,
+          "timeISO": "2019-06-17T19:47:33.000Z",
+          "score": 71,
+          "descendants": 46
+        },
+        {
+          "id": "20203707",
+          "title": "Mathematician Disproves Hedetniemi’s Graph Theory Conjecture",
+          "url": "https://www.quantamagazine.org/mathematician-disproves-hedetniemis-graph-theory-conjecture-20190617/",
+          "by": {
+            "id": "headalgorithm"
+          },
+          "time": 1560784132,
+          "timeISO": "2019-06-17T15:08:52.000Z",
+          "score": 341,
+          "descendants": 49
+        },
+        {
+          "id": "20203497",
+          "title": "Asian countries take a stand against the rich world’s plastic waste",
+          "url": "https://www.latimes.com/world/la-fg-asia-plastic-waste-20190617-story.html",
+          "by": {
+            "id": "ilamont"
+          },
+          "time": 1560782786,
+          "timeISO": "2019-06-17T14:46:26.000Z",
+          "score": 236,
+          "descendants": 147
+        },
+        {
+          "id": "20192099",
+          "title": "Level Design and Shaping a Roguelike Experience",
+          "url": "https://www.gridsagegames.com/blog/2019/02/level-design-shaping-cogmind-experience/",
+          "by": {
+            "id": "tiniuclx"
+          },
+          "time": 1560632218,
+          "timeISO": "2019-06-15T20:56:58.000Z",
+          "score": 36,
+          "descendants": 6
+        },
+        {
+          "id": "20207189",
+          "title": "Why are we so pessimistic?",
+          "url": "https://www.brookings.edu/blog/future-development/2019/06/13/why-are-we-so-pessimistic/",
+          "by": {
+            "id": "allthings"
+          },
+          "time": 1560804360,
+          "timeISO": "2019-06-17T20:46:00.000Z",
+          "score": 63,
+          "descendants": 58
+        },
+        {
+          "id": "20205694",
+          "title": "Classes vs. Data Structures",
+          "url": "http://blog.cleancoder.com/uncle-bob/2019/06/16/ObjectsAndDataStructures.html",
+          "by": {
+            "id": "Anchor"
+          },
+          "time": 1560794504,
+          "timeISO": "2019-06-17T18:01:44.000Z",
+          "score": 169,
+          "descendants": 114
+        },
+        {
+          "id": "20202795",
+          "title": "The Tyranny of Structurelessness (1970)",
+          "url": "https://www.jofreeman.com/joreen/tyranny.htm",
+          "by": {
+            "id": "dgellow"
+          },
+          "time": 1560778834,
+          "timeISO": "2019-06-17T13:40:34.000Z",
+          "score": 5,
+          "descendants": 0
+        },
+        {
+          "id": "20172745",
+          "title": "The New Wilderness",
+          "url": "https://idlewords.com/2019/06/the_new_wilderness.htm",
+          "by": {
+            "id": "OrwellianChild"
+          },
+          "time": 1560414186,
+          "timeISO": "2019-06-13T08:23:06.000Z",
+          "score": 187,
+          "descendants": 35
+        },
+        {
+          "id": "20207370",
+          "title": "LA landlords rip out escalators, walls to attract tenants like Google, Netflix",
+          "url": "https://www.latimes.com/business/la-fi-google-amazon-netflix-land-grab-20190616-story.html",
+          "by": {
+            "id": "guyhance"
+          },
+          "time": 1560805502,
+          "timeISO": "2019-06-17T21:05:02.000Z",
+          "score": 71,
+          "descendants": 45
+        },
+        {
+          "id": "20202213",
+          "title": "New Hampshire installs historical marker to honor the creation of BASIC",
+          "url": "https://www.concordmonitor.com/BASIC-Dartmouth-Kemeny-time-sharing-historical-26164409",
+          "by": {
+            "id": "Tomte"
+          },
+          "time": 1560774769,
+          "timeISO": "2019-06-17T12:32:49.000Z",
+          "score": 205,
+          "descendants": 73
+        },
+        {
+          "id": "20208169",
+          "title": "WireGuard for Windows Pre-Alpha Is Available",
+          "url": "https://www.wireguard.com/install/",
+          "by": {
+            "id": "mises"
+          },
+          "time": 1560812619,
+          "timeISO": "2019-06-17T23:03:39.000Z",
+          "score": 59,
+          "descendants": 11
+        },
+        {
+          "id": "20207427",
+          "title": "Mankind's Inner Ant",
+          "url": "https://www.newstatesman.com/culture/books/2019/06/mankind-s-inner-ant-why-humans-swarm-together",
+          "by": {
+            "id": "commons-tragedy"
+          },
+          "time": 1560805931,
+          "timeISO": "2019-06-17T21:12:11.000Z",
+          "score": 26,
+          "descendants": 7
+        },
+        {
+          "id": "20200335",
+          "title": "Mazda is purging touchscreens from its vehicles",
+          "url": "https://www.motorauthority.com/news/1121372_why-mazda-is-purging-touchscreens-from-its-vehicles",
+          "by": {
+            "id": "meteor333"
+          },
+          "time": 1560751903,
+          "timeISO": "2019-06-17T06:11:43.000Z",
+          "score": 1889,
+          "descendants": 813
+        },
+        {
+          "id": "20203530",
+          "title": "The student loan crisis is really an underemployment catastrophe",
+          "url": "https://medium.com/@eric_seufert/the-student-loan-crisis-is-really-an-underemployment-catastrophe-96181e937a10",
+          "by": {
+            "id": "paulpauper"
+          },
+          "time": 1560782934,
+          "timeISO": "2019-06-17T14:48:54.000Z",
+          "score": 161,
+          "descendants": 235
+        },
+        {
+          "id": "20201557",
+          "title": "Malaysia Airlines Flight MH370: Where Is It?",
+          "url": "https://www.theatlantic.com/magazine/archive/2019/07/mh370-malaysia-airlines/590653/",
+          "by": {
+            "id": "IAmEveryone"
+          },
+          "time": 1560767510,
+          "timeISO": "2019-06-17T10:31:50.000Z",
+          "score": 258,
+          "descendants": 58
+        },
+        {
+          "id": "20207791",
+          "title": "Mozilla and Firefox could be about to change the VPN and privacy market forever",
+          "url": "https://www.techradar.com/news/mozilla-and-firefox-could-be-about-to-change-the-vpn-and-privacy-market-forever",
+          "by": {
+            "id": "libab"
+          },
+          "time": 1560808712,
+          "timeISO": "2019-06-17T21:58:32.000Z",
+          "score": 90,
+          "descendants": 12
+        },
+        {
+          "id": "20206536",
+          "title": "The CIA Spied on People Through Their Smart TVs, Leaked Documents Reveal (2017)",
+          "url": "https://www.vice.com/en_us/article/8qbq5x/the-cia-spied-on-people-through-their-smart-tvs-leaked-documents-reveal",
+          "by": {
+            "id": "sky_nox"
+          },
+          "time": 1560800221,
+          "timeISO": "2019-06-17T19:37:01.000Z",
+          "score": 179,
+          "descendants": 54
+        },
+        {
+          "id": "20205103",
+          "title": "Presenting the Eshell",
+          "url": "http://www.howardism.org/Technical/Emacs/eshell-present.html",
+          "by": {
+            "id": "signa11"
+          },
+          "time": 1560791546,
+          "timeISO": "2019-06-17T17:12:26.000Z",
+          "score": 56,
+          "descendants": 6
+        },
+        {
+          "id": "20197060",
+          "title": "VisiCalc's Spreadsheets Changed the World",
+          "url": "https://thenewstack.io/how-visicalcs-spreadsheets-changed-the-world/",
+          "by": {
+            "id": "eaguyhn"
+          },
+          "time": 1560709486,
+          "timeISO": "2019-06-16T18:24:46.000Z",
+          "score": 123,
+          "descendants": 35
+        },
+        {
+          "id": "20204643",
+          "title": "Minnesota court decision means doctors can be sued by patients they don't treat",
+          "url": "https://thedeductible.com/2019/06/10/why-did-susan-warren-die/",
+          "by": {
+            "id": "scripthacker"
+          },
+          "time": 1560789211,
+          "timeISO": "2019-06-17T16:33:31.000Z",
+          "score": 107,
+          "descendants": 109
+        },
+        {
+          "id": "20194390",
+          "title": "Distrotest: A selection of operating systems to test online",
+          "url": "https://distrotest.net/",
+          "by": {
+            "id": "unicoded"
+          },
+          "time": 1560671830,
+          "timeISO": "2019-06-16T07:57:10.000Z",
+          "score": 39,
+          "descendants": 5
+        },
+        {
+          "id": "20189404",
+          "title": "Calculators for Contractors, Builders, Remodelers, Carpenters, Woodworkers",
+          "url": "https://www.blocklayer.com/",
+          "by": {
+            "id": "thrower123"
+          },
+          "time": 1560596366,
+          "timeISO": "2019-06-15T10:59:26.000Z",
+          "score": 209,
+          "descendants": 14
+        },
+        {
+          "id": "20179723",
+          "title": "In Picasso’s Studio",
+          "url": "https://lithub.com/in-pablo-picassos-studio-during-the-nazi-occupation-of-paris/",
+          "by": {
+            "id": "flannery"
+          },
+          "time": 1560472039,
+          "timeISO": "2019-06-14T00:27:19.000Z",
+          "score": 33,
+          "descendants": 0
+        },
+        {
+          "id": "20204258",
+          "title": "Building a Web-Based Motion Graphics Editor",
+          "url": "https://medium.com/women-make/building-a-web-based-motion-graphics-editor-bd070f8db795",
+          "by": {
+            "id": "alyssaxuu"
+          },
+          "time": 1560787040,
+          "timeISO": "2019-06-17T15:57:20.000Z",
+          "score": 65,
+          "descendants": 23
+        },
+        {
+          "id": "20205876",
+          "title": "Demon Core",
+          "url": "https://en.wikipedia.org/wiki/Demon_core",
+          "by": {
+            "id": "agarttha"
+          },
+          "time": 1560795434,
+          "timeISO": "2019-06-17T18:17:14.000Z",
+          "score": 116,
+          "descendants": 36
+        },
+        {
+          "id": "20205131",
+          "title": "Samsung TVs should be regularly virus-checked, the company says",
+          "url": "https://www.bbc.co.uk/news/technology-48664251",
+          "by": {
+            "id": "haxiomic"
+          },
+          "time": 1560791706,
+          "timeISO": "2019-06-17T17:15:06.000Z",
+          "score": 275,
+          "descendants": 387
+        }
+      ]
+    }
+  }
+}

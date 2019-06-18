@@ -1,0 +1,216 @@
+$bgColor1: #f6f6ef;
+$bgColor2: #ff6600;
+$primaryColor: #222222;
+$secondaryColor: #828282;
+$linkColor: #000000;
+
+@import "mixin.scss";
+
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 10pt;
+  color: $secondaryColor;
+  @include respond-below(sm) {
+    font-size: 11pt;
+    line-height: 14pt;
+  }
+}
+
+.container {
+  background-color: $bgColor1;
+  margin: 10px 110px;
+  padding-bottom: 20px;
+
+  @include respond-below(md) {
+    margin: 10px 80px;
+  }
+
+  @include respond-below(sm) {
+    margin: 0px;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: $bgColor2;
+    padding: 2px;
+    @include respond-below(sm) {
+      justify-content: unset;
+      align-items: center;
+    }
+    .logo {
+      background: url(/assets/img/y18.gif) center no-repeat;
+      width: 20px;
+      border: 1px solid #ffffff;
+      height: 20px;
+    }
+    .pagetop {
+      display: inline-flex;
+      font-size: 10pt;
+      color: $primaryColor;
+      position: absolute;
+      margin-left: 20px;
+      @include respond-below(sm) {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        margin-left: 5px;
+      }
+      .brand-name {
+        padding-left: 5px;
+        font-weight: 600;
+        @include respond-below(sm) {
+          font-size: 15px;
+        }
+        a,
+        a:hover {
+          color: $linkColor;
+          text-decoration: none;
+        }
+      }
+      .menu {
+        display: flex;
+        @include respond-below(sm) {
+          margin-left: -5px;
+        }
+        .cat {
+          padding: 0 10px;
+          @include respond-below(sm) {
+            font-size: 12px;
+          }
+          a {
+            color: $linkColor;
+            &:hover {
+              color: $linkColor;
+              text-decoration: none;
+            }
+          }
+        }
+        .pipe {
+          border-right: 1px solid $primaryColor;
+          height: 12px;
+          margin-top: -15px;
+        }
+      }
+    }
+    .login {
+      margin-right: 5px;
+      @include respond-below(sm) {
+        position: absolute;
+        right: 5px;
+      }
+      a,
+      a:hover {
+        color: $linkColor;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .top-stories-wapper {
+    background-color: $bgColor1;
+    .list-item {
+      display: flex;
+      padding: 5px 10px;
+      .votearrow {
+        width: 10px;
+        height: 10px;
+        border: 0px;
+        margin: 3px 2px 6px;
+        background: url(/assets/img/grayarrow.gif) no-repeat;
+        @include respond-below(sm) {
+          transform: scale(1.3, 1.3);
+          margin-right: 6px;
+        }
+      }
+      .main-content {
+        .title {
+          a {
+            color: $linkColor;
+            &:hover {
+              text-decoration: unset;
+            }
+          }
+          .comhead {
+            a {
+              color: $secondaryColor;
+              font-size: 8pt;
+              &:hover {
+                text-decoration: underline !important;
+              }
+            }
+          }
+        }
+        .subtext {
+          font-size: 7pt;
+          @include respond-below(sm) {
+            font-size: 9pt;
+          }
+          a {
+            color: $secondaryColor;
+            &:hover {
+              color: $secondaryColor;
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .more {
+    color: $primaryColor;
+    margin-left: 45px;
+    margin-top: 10px;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 8pt;
+    padding-top: 15px;
+    border-top: 2px solid $bgColor2;
+    .footer-menu {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      .menu-item {
+        .cat {
+          padding: 0 6px;
+          a {
+            color: $linkColor;
+            &:hover {
+              text-decoration: none;
+            }
+          }
+        }
+
+        .pipe {
+          border-right: 1px solid $secondaryColor;
+          height: 12px;
+          margin-top: -12px;
+        }
+      }
+    }
+
+    .search-box {
+      display: flex;
+      font-size: 10pt;
+      padding: 15px;
+
+      @include respond-below(sm) {
+        width: 100%;
+      }
+      input {
+        border: 1px solid #cacac5;
+        width: 60%;
+        @include respond-below(sm) {
+          width: 100%;
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+}
