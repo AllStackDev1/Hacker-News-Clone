@@ -19,7 +19,6 @@ body {
 .container {
   background-color: $bgColor1;
   margin: 10px 110px;
-  padding-bottom: 20px;
 
   @include respond-below(md) {
     margin: 10px 80px;
@@ -198,7 +197,7 @@ body {
     .search-box {
       display: flex;
       font-size: 10pt;
-      padding: 15px;
+      padding-top: 15px;
 
       @include respond-below(sm) {
         width: 100%;
