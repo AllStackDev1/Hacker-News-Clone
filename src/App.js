@@ -8,9 +8,9 @@ import Footer from 'Components/Footer';
 import gql from 'graphql-tag';
 import { Query } from 'react-apollo';
 
-import hackerNewData from 'Data/topStories.json';
-
-const topStories = hackerNewData.data.hn.topStories;
+//Testing
+// import hackerNewData from 'Data/topStories.json';
+// const topStories = hackerNewData.data.hn.topStories;
 
 const topStoriesFetch = gql`
   {
@@ -55,7 +55,9 @@ class MainApp extends Component {
           </div>
         </div>
         <Query query={topStoriesFetch}>
-          {({ data, loading }) => (loading ? <span>Loading...</span> : <TopStory stories={data} />)}
+          {({ data, loading }) =>
+            loading ? <span>Loading...</span> : <TopStory stories={data.hn.topStories} />
+          }
         </Query>
         <Footer items={FOOTER_ITEM} />
       </div>

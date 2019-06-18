@@ -206,9 +206,9 @@ body {
       input {
         border: 1px solid #cacac5;
         width: 60%;
+        margin-left: 10px;
         @include respond-below(sm) {
           width: 100%;
-          margin-left: 10px;
         }
       }
     }

@@ -7,7 +7,7 @@ import ApolloClient from 'apollo-boost';
 import { ApolloProvider } from 'react-apollo';
 
 const client = new ApolloClient({
-  uri: 'https://hacker-news.firebaseio.com/v0/topstories'
+  uri: 'https://www.graphqlhub.com/graphql'
 });
 
 const rootEl = document.getElementById('root');

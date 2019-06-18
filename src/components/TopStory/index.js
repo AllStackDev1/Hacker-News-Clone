@@ -3,8 +3,7 @@ import PropTypes from 'prop-types';
 
 import { showElapsedTime, getDomain } from 'Lib/helper';
 
-const TopStory = ({ data }) => {
-  const stories = data.hn.topStories;
+const TopStory = ({ stories }) => {
   return (
     <>
       <div className="top-stories-wapper">
